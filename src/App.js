@@ -24,7 +24,8 @@ function App() {
         </h1>
 
         <form onSubmit={handleSubmit}>
-          <textarea name="name" id="" placeholder="type here..." cols="100" rows="10" onChange={ (e) => setState(e.target.value)}>
+          <textarea name="name" id="" placeholder="type here..."
+                    cols="100" rows="10" onChange={ (e) => setState(e.target.value)}>
 
           </textarea>
           <br/>
